@@ -10,19 +10,39 @@
 <body>
     <header>
         <img src="logo.png" alt="Bingetime" class="header">
-        Movies
+        <span class="heading">Movies</span>
+        <span > 
+            <img src="searchIcon.png" class="searchicon">
+        </span>
+        <span class="form">
         <form id="form">
-            <input type="text" placeholder="Search" id="search" class="search">
-
+            <input type="text" placeholder="Search Something" id="search" class="search">
         </form>
+    </span>
+        <span class="button">
+        <button class="searchbutton">SUBMIT</button>
+        </span>
     </header>
-
-    <main id="main">
-        <div class="movie">
-            
-        </div>
-    </main>
-
-    <script src="script.js"></script>
+<div class="row">
+    <div class="leftColumn">
+        <dl class="list">
+            <dt class="listItem">Search Results</dt>
+            <dt class="listItem">All Team</dt>
+            <dt class="listItem">Core</dt>
+            <dt class="listItem">Developers</dt>
+            <dt class="listItem">Designers</dt>
+            <dt class="listItem">Mentors</dt>
+        </dl>
+        <button class="add">+ Add</button>
+    </div>
+    <div class="rightColumn">
+        <main id="main">
+            <div class="movie">
+                <script src="script.js"></script>
+            </div>
+        </main>
+    </div>
+</div>
+    
 </body>
 </html>
